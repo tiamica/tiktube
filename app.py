@@ -25,7 +25,7 @@ def generate_audio(text, filename="audio.mp3"):
 def create_background_image(text, filename="background.jpg"):
     # Create a blank image with a random color
     from random import randint
-    bg_color = (randint(0, 255), (randint(0, 255)), (randint(0, 255))
+    bg_color = (randint(0, 255), (randint(0, 255)), (randint(0, 255)))
     image = Image.new("RGB", (1080, 1920), bg_color)
     draw = ImageDraw.Draw(image)
 
